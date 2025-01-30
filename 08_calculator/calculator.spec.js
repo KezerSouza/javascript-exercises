@@ -18,7 +18,7 @@ describe('subtract', () => {
   test('subtracts numbers', () => {
     expect(calculator.subtract(10, 4)).toBe(6);
   });
-
+  
   test('subtracts negative numbers', () => {
     expect(calculator.subtract(-10, -4)).toBe(-6);
   });
